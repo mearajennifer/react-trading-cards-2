@@ -1,8 +1,5 @@
-{% extends 'base.html' %}
-
-{% block title %} Cards {% endblock %}
-
-{% block body %}
+{% extends 'base.html' %} {% block title %} Cards {% endblock %} {% block body
+%}
 <div>
   <h2>Add New Trading Card</h2>
 
@@ -14,9 +11,7 @@
 </div>
 
 <div id="container" class="grid"></div>
-{% endblock %}
-
-{% block js %}
+{% endblock %} {% block js %}
 <script>
   function getCardData() {
     // Get the up to date card data from DB.
